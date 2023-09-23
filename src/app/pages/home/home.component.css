@@ -5,3 +5,17 @@
     justify-content: center;
 }
 
+@media (max-width: 768px) {
+    .articles {
+      flex-direction: column;
+      font-size: 10px;
+    }
+    /* .articles__main {
+        font-size: 5px;
+        flex-direction: column;
+    } */
+
+
+
+}
+
