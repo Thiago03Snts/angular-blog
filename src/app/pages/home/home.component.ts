@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  photoCover:string = ""
+  contentTitle:string = ""
+  contentDescription:string = ""
+
   constructor() { }
 
   ngOnInit(): void {

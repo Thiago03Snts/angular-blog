@@ -10,12 +10,12 @@ import { dataFake } from 'src/app/DataFake/dataFake';
 })
 export class ContentComponent implements OnInit {
 
-  @Input()
-  photoCover:string = "";
-  @Input()
-  contentTitle:string = " ";
-  @Input()
-  contentDescription:string = "";
+  
+  photoCover:string = "https://www.aereo.jor.br/wp-content/uploads/2010/05/Star-Wars-The-Empire-Strikes-Back-2.jpg";
+  
+  contentTitle:string = " EXEMPLO DE TÍTULO ";
+  //@Input()
+  contentDescription:string = " EXEMPLO DE TEXTO";
 
   private id:string | null = "0"
 
